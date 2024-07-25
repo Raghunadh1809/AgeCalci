@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculate</title>
+    <link rel="stylesheet" href="AGE-calculator.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input">
+        <form action="age.php" method="post">
+          <input type="date" id="date-input" />
+        </form>
+        <button onclick="ageCalculate()">Calculate</button>
+      </div>
+
+      <div class="output">
+        <div class="years">
+          <span id="years">-</span>
+          <p>Years</p>
+        </div>
+        <div class="months">
+          <span id="months">-</span>
+          <p>Months</p>
+        </div>
+        <div class="days">
+          <span id="days">-</span>
+          <p>Days</p>
+        </div>
+      </div>
+    </div>
+    <script src="AGE-calculator.js"></script>
+  </body>
+</html>
